@@ -8,15 +8,15 @@ module.exports = {
     PASSWORD: process.env.PASSWORD || '', //set passworkd to use 18+ plugins pss = inrl-bot~md
     REACT : process.env.REACT || 'false', //to react  almsg automaticaly
     WARNCOUND : process.env.WARNCOUND || "5", // to kick a person by war cound
-    GROUP_CHAT : process.env.GROUP_CHAT || 'false', // to set chat bot on grp
-    FREE_TXT : process.env.FREE_TXT || 'inrlbotmd',//nothing😉
+    GROUP_CHAT : process.env.GROUP_CHAT || 'true', // to set chat bot on grp
+    FREE_TXT : process.env.FREE_TXT || 'Rika-bot',//nothing😉
     U_STATUS: process.env.U_STATUS || 'false', //to update profilesatus automaticily
-    ALIVETXT: process.env.ALIVETXT || 'INRL-BOT-MD', //nothing😛
+    ALIVETXT: process.env.ALIVETXT || 'Ronen-Bots', //nothing😛
     ALIVE_DATA : process.env.ALIVE_DATA || "https://i.imgur.com/DyLAuEh.jpg,aliveText,alivebButtenText1,aliveTextButten2",// coustamized alive bottun😛
     READ_CHAT : process.env.READ_CHAT || "false", //values are true and false only if true read all chats
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD,INRL,https://i.imgur.com/DyLAuEh.jpg", // about the bot as img number for menu such plugins
     BGMBOT : process.env.BGMBOT || 'false', //to set bot as bgm bot
-    WORKTYPE: process.env.WORKTYPE || 'privet', //bot working mode
+    WORKTYPE: process.env.WORKTYPE || 'public', //bot working mode
     PM_BLOCK : process.env.PM_BLOCK || "false", // to block all pm msg expt creaters as sudo
     PERFIX : process.env.PERFIX || ".", // prfix of bot 
     WELCOME_SET : process.env.WELCOME_SET || "true", //now thi scmd is not creted creating
@@ -29,9 +29,9 @@ module.exports = {
         MENSION_TEXT : process.env.MENSION_TEXT || 'inrl-md,edit this and set your data, https://chat.whatsapp.com/CUJuk1xPEpR8av9h7DDGNO'
     },
     LANG : (process.env.LANGUAG || 'EN').toLowerCase(), //values are ml, en only
-    OWNER : process.env.OWNER || "917593919575",// bot owner
+    OWNER : process.env.OWNER || "15069751205",// bot owner
     BRANCH: 'master',//nothing😉
-    PROFILE_STATUS : process.env.PROFILE_STATUS || "💗 ᴀᴜᴛᴏ ᴍᴀᴛɪᴄ ʙɪᴏ ʙy ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",// profile status updating value
+    PROFILE_STATUS : process.env.PROFILE_STATUS || "💗 ᴀᴜᴛᴏ ᴍᴀᴛɪᴄ ʙɪᴏ ʙy RIKA BOT",// profile status updating value
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY || '',
@@ -40,19 +40,19 @@ module.exports = {
     BLOCK_CHAT : process.env.BLOCK_CHAT || 'your jid',//to remove chat from specifed jid
     AUTO_CHAT_PM : process.env.AUTO_CHAT_PM || "false",//to chat bot on pm msgs
     AUTO_CHAT_GRP : process.env.AUTO_CHAT_GRP || "false",//to set chatbot on group
-    BOT_PRESENCE : process.env.BOT_PRESENCE || "recording",//bot presence
+    BOT_PRESENCE : process.env.BOT_PRESENCE || "",//bot presence
     IS_PRESENCE : process.env.IS_PRESENCE || "false",//nothing 😛
     CHATBOT : process.env.CHATBOT || 'false',//to chat bot on bith grp and pm
-    FOOTER : process.env.FOOTER || "ɪɴʀʟ-ᴍᴅ",//footers of bottun msg
+    FOOTER : process.env.FOOTER || "RONEN-BOTS",//footers of bottun msg
     AUDIO_DATA : process.env.AUDIO_DATA || "inrl, inrl,https://i.imgur.com/DyLAuEh.jpg",//audio metadata
     STICKER_DATA: process.env.STICKER_DATA || "inrl, inrl,https://i.imgur.com/DyLAuEh.jpg",//sticker metedata
     INSTAGRAM : process.env.INSTAGRAM || "https://instagram.com/_user_not_define",//your ig url
-    PACKNAME : process.env.PACKNAME || "ɪɴʀʟ-ʙᴏᴛ",// packname 
+    PACKNAME : process.env.PACKNAME || "RONEN-BOTS",// packname 
     GIT : process.env.GIT || "https://tinyurl.com/3ex3e48e",//github url
     WEB : process.env.WEB || "https://tinyurl.com/ycks3s8p",//your website url
     YT : process.env.YT || "https://tinyurl.com/36r3668n",//your yt url
     CAPTION : process.env.CAPTION || "_created by inrl-bot_",//captions of img and videos
-    SUDO: process.env.SUDO || "917593919575",// sudo numbers to manage bot it will been add more by,
+    SUDO: process.env.SUDO || "15069751205",// sudo numbers to manage bot it will been add more by,
     VIDEO : "https://tinyurl.com/3x38ajmn",//turtorial video to watch how to use bot
     WAGRP : process.env.WAGRP || 'https://tinyurl.com/f5wh55mk',//your wa group url
     };
